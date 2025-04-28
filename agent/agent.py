@@ -7,6 +7,8 @@ from utils import (
     check_blocklisted_url,
 )
 import json
+import sys
+import select
 from typing import Callable
 
 
@@ -22,7 +24,7 @@ class Agent:
         model="computer-use-preview",
         computer: Computer = None,
         tools: list[dict] = [],
-        acknowledge_safety_check_callback: Callable = lambda: False,
+        acknowledge_safety_check_callback: Callable = lambda: True,
     ):
         self.model = model
         self.computer = computer
@@ -33,13 +35,12 @@ class Agent:
         self.acknowledge_safety_check_callback = acknowledge_safety_check_callback
 
         if computer:
-            dimensions = computer.get_dimensions()
             self.tools += [
                 {
                     "type": "computer-preview",
-                    "display_width": dimensions[0],
-                    "display_height": dimensions[1],
-                    "environment": computer.get_environment(),
+                    "display_width": computer.dimensions[0],
+                    "display_height": computer.dimensions[1],
+                    "environment": computer.environment,
                 },
             ]
 
@@ -103,7 +104,7 @@ class Agent:
             }
 
             # additional URL safety checks for browser environments
-            if self.computer.get_environment() == "browser":
+            if self.computer.environment == "browser":
                 current_url = self.computer.get_current_url()
                 check_blocklisted_url(current_url)
                 call_output["output"]["current_url"] = current_url
@@ -121,7 +122,7 @@ class Agent:
 
         # keep looping until we get a final response
         while new_items[-1].get("role") != "assistant" if new_items else True:
-            self.debug_print([sanitize_message(msg) for msg in input_items + new_items])
+            # self.debug_print([sanitize_message(msg) for msg in new_items])
 
             response = create_response(
                 model=self.model,
@@ -135,8 +136,19 @@ class Agent:
                 print(response)
                 raise ValueError("No output from model")
             else:
+                self.debug_print([sanitize_message(msg) for msg in response["output"]])
                 new_items += response["output"]
                 for item in response["output"]:
                     new_items += self.handle_item(item)
+
+            # Check for pause command
+            try:
+                if sys.stdin in select.select([sys.stdin], [], [], 0)[0]:
+                    line = sys.stdin.readline()
+                    if line.strip().lower() == "pause":
+                        print("\nExecution paused. Press Enter to continue...")
+                        input()
+            except:
+                pass  # Ignore any errors related to stdin reading
 
         return new_items

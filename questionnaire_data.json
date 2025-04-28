@@ -1,0 +1,763 @@
+{
+  "username": "jillmoore",
+  "password": "423w8th",
+  "dba": "A.R.L.",
+  "ein": "521870003",
+  "fyb": "2024-01-01", 
+  "fye": "2024-12-31",
+  "banks": [
+      {
+          "name": "Bank of America",
+          "address": {
+              "city": "Charlotte",
+              "state": "NC", 
+              "county": "",
+              "zip_code": "28255",
+              "default_field": null,
+              "address_line_1": "100 North Tryon Street",
+              "address_line_2": ""
+          },
+          "bank_phone": "888-287-4637",
+          "bank_account_number": ""
+      },
+      {
+          "name": "Charles Schwab",
+          "address": {
+              "city": "Washington",
+              "state": "DC",
+              "county": "",
+              "zip_code": "20006", 
+              "default_field": null,
+              "address_line_1": "1845 K Street NW",
+              "address_line_2": ""
+          },
+          "bank_phone": "202-530-1870",
+          "bank_account_number": ""
+      },
+      {
+          "name": "JP Morgan Chase Bank",
+          "address": {
+              "city": "",
+              "state": "",
+              "county": "",
+              "zip_code": "",
+              "default_field": null,
+              "address_line_1": "1212 18th Street NW",
+              "address_line_2": ""
+          },
+          "bank_phone": "",
+          "bank_account_number": ""
+      },
+      {
+          "name": "LPL Financial",
+          "address": {
+              "city": "San Diego",
+              "state": "CA",
+              "county": "",
+              "zip_code": "92121-3091",
+              "default_field": null,
+              "address_line_1": "4707 Executive Drive",
+              "address_line_2": ""
+          },
+          "bank_phone": "858-587-5352",
+          "bank_account_number": ""
+      },
+      {
+          "name": "M&T Bank",
+          "address": {
+              "city": "Washington",
+              "state": "DC",
+              "county": "",
+              "zip_code": "20006",
+              "default_field": null,
+              "address_line_1": "1680 K Street NW",
+              "address_line_2": ""
+          },
+          "bank_phone": "202-296-5639",
+          "bank_account_number": ""
+      },
+      {
+          "name": "Washington,, DC 20036",
+          "address": {
+              "city": "",
+              "state": "",
+              "county": "",
+              "zip_code": "",
+              "default_field": null,
+              "address_line_1": "",
+              "address_line_2": ""
+          },
+          "bank_phone": "202-920-5280",
+          "bank_account_number": ""
+      },
+      {
+          "name": "Wells Fargo",
+          "address": {
+              "city": "Washington",
+              "state": "DC",
+              "county": "",
+              "zip_code": "20005",
+              "default_field": null,
+              "address_line_1": "",
+              "address_line_2": ""
+          },
+          "bank_phone": "202-347-7420",
+          "bank_account_number": ""
+      }
+  ],
+  "irc_date": "1994-06-02",
+  "ntee_code": "B20",
+  "accountants": [
+      {
+          "name": "Rosenbloom & Butler CPAs, P.C.",
+          "address": {
+              "city": "Rockville",
+              "state": "IN",
+              "county": "",
+              "zip_code": "20850",
+              "default_field": null,
+              "address_line_1": "1455 Research Boulevard",
+              "address_line_2": "Suite 510"
+          }
+      }
+  ],
+  "percent_fund": "1.17",
+  "auditor_title": "CPA",
+  "board_members": [
+      {
+          "email": "",
+          "hours": "40",
+          "phone": {
+              "value": null,
+              "default_field": null
+          },
+          "title": "Chief of Staff/Sr. VP of Strategy",
+          "salary": "153,000.00",
+          "address": {
+              "city": "Washington",
+              "state": "DC",
+              "county": "",
+              "zip_code": "20036",
+              "default_field": null,
+              "address_line_1": "1730 M Street NW",
+              "address_line_2": "Suite 600"
+          },
+          "benefits": "0.00",
+          "last_name": "Alacbay",
+          "first_name": "Armand",
+          "middle_name": "",
+          "expense_account": "0.00",
+          "responsible_for_custody_of": ""
+      },
+      {
+          "email": "",
+          "hours": "",
+          "phone": {
+              "value": null,
+              "default_field": null
+          },
+          "title": "Chairman",
+          "salary": "",
+          "address": {
+              "city": "Washington",
+              "state": "DC",
+              "county": "",
+              "zip_code": "20036",
+              "default_field": null,
+              "address_line_1": "1730 M Street NW",
+              "address_line_2": "Suite 600"
+          },
+          "benefits": "",
+          "last_name": "Altman",
+          "first_name": "John",
+          "middle_name": "",
+          "expense_account": "",
+          "responsible_for_custody_of": ""
+      },
+      {
+          "email": "",
+          "hours": "",
+          "phone": {
+              "value": null,
+              "default_field": null
+          },
+          "title": "Director",
+          "salary": "",
+          "address": {
+              "city": "Washington",
+              "state": "DC",
+              "county": "",
+              "zip_code": "20036",
+              "default_field": null,
+              "address_line_1": "1730 M Street NW",
+              "address_line_2": "Suite 600"
+          },
+          "benefits": "",
+          "last_name": "Brown",
+          "first_name": "Janice",
+          "middle_name": "Rogers",
+          "expense_account": "",
+          "responsible_for_custody_of": ""
+      },
+      {
+          "email": "",
+          "hours": "",
+          "phone": {
+              "value": null,
+              "default_field": null
+          },
+          "title": "Director",
+          "salary": "",
+          "address": {
+              "city": "Washington",
+              "state": "DC",
+              "county": "",
+              "zip_code": "20036",
+              "default_field": null,
+              "address_line_1": "1730 M Street NW",
+              "address_line_2": "Suite 600"
+          },
+          "benefits": "",
+          "last_name": "Ganahl",
+          "first_name": "Heidi",
+          "middle_name": "",
+          "expense_account": "",
+          "responsible_for_custody_of": ""
+      },
+      {
+          "email": "",
+          "hours": "40",
+          "phone": {
+              "value": null,
+              "default_field": null
+          },
+          "title": "Sr. VP of Finance/COO",
+          "salary": "205,459.00",
+          "address": {
+              "city": "Washington",
+              "state": "DC",
+              "county": "",
+              "zip_code": "20036",
+              "default_field": null,
+              "address_line_1": "1730 M Street NW",
+              "address_line_2": "Suite 600"
+          },
+          "benefits": "0.00",
+          "last_name": "Kempson",
+          "first_name": "Lauri",
+          "middle_name": "",
+          "expense_account": "0.00",
+          "responsible_for_custody_of": "custody_of_records,responsible_for_distribution_of_funds"
+      },
+      {
+          "email": "",
+          "hours": "",
+          "phone": {
+              "value": null,
+              "default_field": null
+          },
+          "title": "Director",
+          "salary": "",
+          "address": {
+              "city": "Washington",
+              "state": "DC",
+              "county": "",
+              "zip_code": "20036",
+              "default_field": null,
+              "address_line_1": "1730 M Street NW",
+              "address_line_2": "Suite 600"
+          },
+          "benefits": "",
+          "last_name": "Levy",
+          "first_name": "Paul",
+          "middle_name": "S.",
+          "expense_account": "",
+          "responsible_for_custody_of": ""
+      },
+      {
+          "email": "",
+          "hours": "40",
+          "phone": {
+              "value": null,
+              "default_field": null
+          },
+          "title": "Levy Fellow in Campus Freedom",
+          "salary": "120,000.00",
+          "address": {
+              "city": "",
+              "state": "",
+              "county": "",
+              "zip_code": "",
+              "default_field": null,
+              "address_line_1": "",
+              "address_line_2": ""
+          },
+          "benefits": "0.00",
+          "last_name": "McGuire",
+          "first_name": "Steven",
+          "middle_name": "",
+          "expense_account": "0.00",
+          "responsible_for_custody_of": ""
+      },
+      {
+          "email": "",
+          "hours": "40",
+          "phone": {
+              "value": null,
+              "default_field": null
+          },
+          "title": "President/CEO",
+          "salary": "266,097.00",
+          "address": {
+              "city": "Washington",
+              "state": "DC",
+              "county": "",
+              "zip_code": "20036",
+              "default_field": null,
+              "address_line_1": "1730 M Street NW",
+              "address_line_2": "Suite 600"
+          },
+          "benefits": "22,500.00",
+          "last_name": "Poliakoff",
+          "first_name": "Michael",
+          "middle_name": "",
+          "expense_account": "0.00",
+          "responsible_for_custody_of": "responsible_for_distribution_of_funds,responsible_for_signing_checks"
+      },
+      {
+          "email": "",
+          "hours": "",
+          "phone": {
+              "value": null,
+              "default_field": null
+          },
+          "title": "III, Director",
+          "salary": "",
+          "address": {
+              "city": "Washington",
+              "state": "DC",
+              "county": "",
+              "zip_code": "20036",
+              "default_field": null,
+              "address_line_1": "1730 M Street NW",
+              "address_line_2": "Suite 600"
+          },
+          "benefits": "",
+          "last_name": "Reuben",
+          "first_name": "Jeffrey",
+          "middle_name": "",
+          "expense_account": "",
+          "responsible_for_custody_of": ""
+      },
+      {
+          "email": "",
+          "hours": "",
+          "phone": {
+              "value": null,
+              "default_field": null
+          },
+          "title": "Treasurer",
+          "salary": "",
+          "address": {
+              "city": "Washington",
+              "state": "DC",
+              "county": "",
+              "zip_code": "20036",
+              "default_field": null,
+              "address_line_1": "1730 M Street NW",
+              "address_line_2": "Suite 600"
+          },
+          "benefits": "",
+          "last_name": "Ridenour",
+          "first_name": "Mark",
+          "middle_name": "",
+          "expense_account": "",
+          "responsible_for_custody_of": "responsible_for_signing_checks,custody_of_funds"
+      },
+      {
+          "email": "",
+          "hours": "",
+          "phone": {
+              "value": null,
+              "default_field": null
+          },
+          "title": "Director",
+          "salary": "",
+          "address": {
+              "city": "Washington",
+              "state": "DC",
+              "county": "",
+              "zip_code": "20036",
+              "default_field": null,
+              "address_line_1": "1730 M Street NW",
+              "address_line_2": "Suite 600"
+          },
+          "benefits": "",
+          "last_name": "Robson",
+          "first_name": "Karrin",
+          "middle_name": "Taylor",
+          "expense_account": "",
+          "responsible_for_custody_of": ""
+      },
+      {
+          "email": "",
+          "hours": "40",
+          "phone": {
+              "value": null,
+              "default_field": null
+          },
+          "title": "VP of Multimedia and Campus Partnerships",
+          "salary": "120,726.00",
+          "address": {
+              "city": "",
+              "state": "",
+              "county": "",
+              "zip_code": "",
+              "default_field": null,
+              "address_line_1": "",
+              "address_line_2": ""
+          },
+          "benefits": "0.00",
+          "last_name": "Sprei",
+          "first_name": "Douglas",
+          "middle_name": "",
+          "expense_account": "0.00",
+          "responsible_for_custody_of": ""
+      },
+      {
+          "email": "",
+          "hours": "",
+          "phone": {
+              "value": null,
+              "default_field": null
+          },
+          "title": "Director",
+          "salary": "",
+          "address": {
+              "city": "Washington",
+              "state": "DC",
+              "county": "",
+              "zip_code": "20036",
+              "default_field": null,
+              "address_line_1": "1730 M Street NW",
+              "address_line_2": "Suite 600"
+          },
+          "benefits": "",
+          "last_name": "Taylor Jr.",
+          "first_name": "Stuart",
+          "middle_name": "",
+          "expense_account": "",
+          "responsible_for_custody_of": ""
+      },
+      {
+          "email": "",
+          "hours": "",
+          "phone": {
+              "value": null,
+              "default_field": null
+          },
+          "title": "Director",
+          "salary": "",
+          "address": {
+              "city": "Washington",
+              "state": "DC",
+              "county": "",
+              "zip_code": "20036",
+              "default_field": null,
+              "address_line_1": "1730 M Street NW",
+              "address_line_2": "Suite 600"
+          },
+          "benefits": "",
+          "last_name": "Trachtenberg",
+          "first_name": "Stephen",
+          "middle_name": "J.",
+          "expense_account": "",
+          "responsible_for_custody_of": ""
+      },
+      {
+          "email": "",
+          "hours": "",
+          "phone": {
+              "value": null,
+              "default_field": null
+          },
+          "title": "Secretary",
+          "salary": "",
+          "address": {
+              "city": "Washington",
+              "state": "DC",
+              "county": "",
+              "zip_code": "20036",
+              "default_field": null,
+              "address_line_1": "1730 M Street NW",
+              "address_line_2": "Suite 600"
+          },
+          "benefits": "",
+          "last_name": "Williamson",
+          "first_name": "Edwin",
+          "middle_name": "D.",
+          "expense_account": "",
+          "responsible_for_custody_of": "responsible_for_signing_checks"
+      }
+  ],
+  "key_employees": null,
+  "nonprofit_fax": "202-467-6784",
+  "oregon_assets": "1218",
+  "oregon_revenue": "12044",
+  "tax_deductible": "true",
+  "irs_application": "false",
+  "new_york_assets": "238949",
+  "new_york_office": "true",
+  "nonprofit_email": "straversi@test.com",
+  "nonprofit_phone": "202-467-6787",
+  "signatory_email": "mpoliakoff@test.com",
+  "signatory_title": "President",
+  "date_established": "1994-03-09",
+  "auditor_last_name": "Taylor",
+  "denied_or_revoked": "false",
+  "enjoined_by_court": "false",
+  "government_grants": [
+      {
+          "name": "Annual Conference H.10",
+          "agency": "U.S. Federal Government",
+          "amount": "84000"
+      },
+      {
+          "name": "Community Outreach 1A",
+          "agency": "U.S. Federal Government",
+          "amount": "42000"
+      },
+      {
+          "name": "Community Outreach 1B",
+          "agency": "U.S. Federal Government",
+          "amount": "40000"
+      }
+  ],
+  "nonprofit_address": {
+      "city": "Washington",
+      "state": "DC",
+      "county": "",
+      "zip_code": "20036",
+      "default_field": null,
+      "address_line_1": "1730 M Street NW",
+      "address_line_2": "Suite 600"
+  },
+  "nonprofit_purpose": "The corporation shall educate alumni, trustees, and other interested members of the public about higher education and work with them in efforts to encourage excellence and academic freedom in institutions of higher education.",
+  "nonprofit_website": "www.example.org",
+  "organization_name": "Array Alliance Inc.",
+  "organization_type": "corporation",
+  "auditor_first_name": "Robin",
+  "california_raffles": "true",
+  "convicted_of_crime": "false",
+  "ohio_contributions": "103957",
+  "ohio_distributions": "109358",
+  "california_lobbying": "true",
+  "city_established_in": "Washington, D.C.",
+  "convicted_of_felony": "false",
+  "federated_nonprofit": "false",
+  "fundraising_methods": "email,mail,personal_solicitation",
+  "ohio_board_meetings": "4",
+  "signatory_last_name": "Poliakoff",
+  "fiscal_year_end_date": "2023-12-31",
+  "irs_application_date": "",
+  "north_dakota_revenue": "35908",
+  "percent_fund_managed": "10.34",
+  "signatory_first_name": "Michael",
+  "state_established_in": "DC",
+  "states_registered_in": "AL,AK,AR,CA,CO,CT,FL,GA,HI,IL,KS,KY,ME,MD,MA,MI,MN,MS,NV,NH,NJ,NM,NY,NC,ND,OH,OK,OR,PA,RI,SC,TN,VA,WA,WV,WI",
+  "irs_tax_exempt_status": "501(c)(3)",
+  "signatory_middle_name": "B.",
+  "commercial_co_ventures": "false",
+  "fiscal_year_begin_date": "2023-01-01",
+  "new_york_contributions": "523790",
+  "north_dakota_disbursed": "83195",
+  "second_signatory_email": "lkempson@example.org",
+  "second_signatory_title": "COO/Sr. VP of Finance",
+  "state_agency_agreement": "false",
+  "california_car_donation": "false",
+  "minnesota_contributions": "429011",
+  "professional_fundraisers": "false",
+  "financial_records_address": {
+      "city": "",
+      "state": "",
+      "county": "",
+      "zip_code": "",
+      "default_field": null,
+      "address_line_1": "",
+      "address_line_2": ""
+  },
+  "nonprofit_mailing_address": {
+      "city": "Washington",
+      "state": "DC",
+      "county": "",
+      "zip_code": "20036",
+      "default_field": "nonprofit_address",
+      "address_line_1": "1730 M Street NW",
+      "address_line_2": "Suite 600"
+  },
+  "california_raffles_details": "Raffle A,\r\nRaffle B,\r\nRaffle C",
+  "enjoined_by_court_employee": "false",
+  "organization_contact_email": "hmccune@example.org",
+  "organization_contact_title": "Executive Assistant",
+  "receives_government_grants": "true",
+  "second_signatory_last_name": "Kempson",
+  "washington_employees_names": [],
+  "california_lobbying_details": "Lobbying A,\r\nLobbying B,\r\nLobbying C",
+  "convicted_of_crime_employee": "false",
+  "five_highest_paid_employees": [
+      {
+          "title": "Sr. VP of Finance/COO",
+          "salary": "134000",
+          "last_name": "Alacbay",
+          "first_name": "Armand"
+      },
+      {
+          "title": "Levy Fellow in Campus Freedom",
+          "salary": "124900",
+          "last_name": "McGuire",
+          "first_name": "Steven"
+      },
+      {
+          "title": "President/CEO",
+          "salary": "89000",
+          "last_name": "Poliakoff",
+          "first_name": "Michael"
+      },
+      {
+          "title": "Director",
+          "salary": "85000",
+          "last_name": "Robson",
+          "first_name": "Karrin"
+      },
+      {
+          "title": "Director",
+          "salary": "79000",
+          "last_name": "Taylor Jr.",
+          "first_name": "Stuart"
+      }
+  ],
+  "second_signatory_first_name": "Lauri",
+  "west_virginia_contributions": "230587",
+  "west_virginia_distributions": "209385",
+  "chapters_branches_affiliates": [
+      {
+          "state": "colorado",
+          "address": {
+              "city": "Denver",
+              "state": "CO",
+              "county": "",
+              "zip_code": "18357",
+              "default_field": null,
+              "address_line_1": "174 Snow Ave",
+              "address_line_2": ""
+          },
+          "chapter_phone": "184 198-1247",
+          "contact_last_name": "Patterson",
+          "contact_first_name": "James"
+      },
+      {
+          "state": "mississippi",
+          "address": {
+              "city": "Jackson",
+              "state": "MS",
+              "county": "",
+              "zip_code": "98523",
+              "default_field": null,
+              "address_line_1": "42 Ripple Drive",
+              "address_line_2": ""
+          },
+          "chapter_phone": "789 142-1524",
+          "contact_last_name": "Adams",
+          "contact_first_name": "Ansel"
+      }
+  ],
+  "convicted_of_felony_employee": "false",
+  "second_signatory_middle_name": "",
+  "denied_or_revoked_explanation": null,
+  "nonprofit_programs_description": "Monthly Education Seminars\r\nAnnual Education Conference\r\nWeekly Community Meetups",
+  "organization_contact_last_name": "McCune",
+  "convicted_of_felony_explanation": null,
+  "organization_contact_first_name": "Hannah",
+  "fundraising_agreements_last_year": [
+      {
+          "notes": "",
+          "address": {
+              "city": "New York City",
+              "state": "NY",
+              "county": "",
+              "zip_code": "10001",
+              "default_field": null,
+              "address_line_1": "3700 Main St",
+              "address_line_2": ""
+          },
+          "payment_terms": "",
+          "states_included": "CA,CO,CT,DE,FL",
+          "amount_paid_to_fundraiser": "23093",
+          "fundraising_activity_type": "Sweepstakes",
+          "fundraising_agreement_name": "Omaze Sweepstakes #1",
+          "fundraising_agreement_amount": "103298",
+          "fundraising_agreement_end_date": "2025-03-29",
+          "fundraising_agreement_start_date": "2025-03-27",
+          "total_amount_paid_to_organization": "984720",
+          "fundraising_agreement_signing_date": "2025-03-09",
+          "gross_receipts_from_fundraising_activities": "230958"
+      },
+      {
+          "notes": "",
+          "address": {
+              "city": "New York City",
+              "state": "NY",
+              "county": "",
+              "zip_code": "10001",
+              "default_field": null,
+              "address_line_1": "3700 Main St",
+              "address_line_2": ""
+          },
+          "payment_terms": "",
+          "states_included": "CA,CO,CT,ID,IL,IN",
+          "amount_paid_to_fundraiser": "209385",
+          "fundraising_activity_type": "Sweepstakes",
+          "fundraising_agreement_name": "Omaze Sweepstakes #2",
+          "fundraising_agreement_amount": "15702",
+          "fundraising_agreement_end_date": "2025-03-21",
+          "fundraising_agreement_start_date": "2025-03-10",
+          "total_amount_paid_to_organization": "948349",
+          "fundraising_agreement_signing_date": "2025-03-06",
+          "gross_receipts_from_fundraising_activities": "904386"
+      }
+  ],
+  "fundraising_agreements_this_year": [],
+  "organization_contact_middle_name": "",
+  "professional_fundraising_counsel": "false",
+  "professional_solicitation_services": "true",
+  "mississippi_board_member_contact_email": "sonia@test.com",
+  "mississippi_board_member_contact_phone": "182 219-1247",
+  "mississippi_board_member_contact_title": "Board Member",
+  "mississippi_board_member_contact_2_email": "amar@test.com",
+  "mississippi_board_member_contact_2_phone": "123 581-4829",
+  "mississippi_board_member_contact_2_title": "Board Member",
+  "mississippi_board_member_contact_address": {
+      "city": "Jackson",
+      "state": "MS",
+      "county": "",
+      "zip_code": "43251",
+      "default_field": null,
+      "address_line_1": "580 1st St",
+      "address_line_2": "Apt A"
+  },
+  "mississippi_board_member_contact_2_address": {
+      "city": "Jackson",
+      "state": "MS",
+      "county": "",
+      "zip_code": "51720",
+      "default_field": null,
+      "address_line_1": "22 2nd St",
+      "address_line_2": ""
+  },
+  "mississippi_board_member_contact_last_name": "Nigam",
+  "mississippi_board_member_contact_first_name": "Sonia",
+  "mississippi_board_member_contact_2_last_name": "Shah",
+  "mississippi_board_member_contact_middle_name": "",
+  "mississippi_board_member_contact_2_first_name": "Amar",
+  "mississippi_board_member_contact_2_middle_name": ""
+}

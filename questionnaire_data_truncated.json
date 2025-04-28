@@ -1,0 +1,19 @@
+{
+  "username": "jillmoore",
+  "password": "423w8th",
+  "dba": "A.R.L.",
+  "ein": "521870003",
+  "fyb": "2024-01-01", 
+  "fye": "2024-12-31",
+  "organization_name": "Array Alliance Inc.",
+  "organization_address": "123 Main St, Anytown, USA 12345",
+  "organization_phone": "123-456-7890",
+  "organization_email": "info@example.com",
+  "organization_website": "https://www.example.com",
+  "organization_type": "Non-Profit",
+  "total_revenue": "1000000",
+  "fundraising_paid_by_organization": true,
+  "professional_fundraising_counsel_amount": "100000",
+  "assets_or_income_paid_to_officers": false,
+  "professional_fundraising": true
+}
